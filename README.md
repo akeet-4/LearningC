@@ -60,6 +60,20 @@ gcc a_zCOMPOUNDINTEREST.c -o compound -lm
 ./compound
 ```
 
+### 5. **Grade Calculator** (`a_GRADECALCULATOR.c`)
+Calculates your CGPA using your grades.
+
+**Features:**
+- Takes your grades of each subject and calculates CGPA.
+- Uses yours average and divides it by 10.
+- Displays CGPA after calculations.
+
+**How To Run:**
+```bash
+gcc a_GRADECALCULATOR.c -o gradecalc 
+./gradecalc
+```
+
 ## Compilation
 
 Compile all programs:
@@ -68,6 +82,7 @@ gcc a_MADLIBSGAME.c -o madlibs
 gcc a_SHOPPINGCART.c -o shopping
 gcc a_zCIRCLECALCULATOR.c -o circle -lm
 gcc a_zCOMPOUNDINTEREST.c -o compound -lm
+gcc a_GRADECALCULATOR.c -o gradecalc 
 ```
 
 **Note:** Programs using `math.h` require the `-lm` flag to link the math library.
