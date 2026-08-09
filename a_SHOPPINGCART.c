@@ -24,7 +24,7 @@ int main() {
     total = price * quantity;
 
     printf("\nYou have bought %d %s/s\n", quantity, item);
-    printf("%c%.2f", currency, total);
+    printf("Total: %c%.2f\n", currency, total);
 
     return 0;
 }
