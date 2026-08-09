@@ -14,7 +14,7 @@ int main() {
 
     area = PI * pow(radius, 2);
     surfaceArea = 4 * PI * pow(radius, 2);
-    volume = (4.0 / 3.0) * PI * pow(radius, 2);
+    volume = (4.0 / 3.0) * PI * pow(radius, 3);
     
     printf("Area: %.2lf\n", area);
     printf("Surface Area: %.2lf\n", surfaceArea);
