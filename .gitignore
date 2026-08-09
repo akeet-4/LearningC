@@ -1,0 +1,20 @@
+# Compiled binaries
+*.o
+*.out
+*.exe
+*.a
+*.so
+
+# Executables (common names)
+madlibs
+shopping
+circle
+compound
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
