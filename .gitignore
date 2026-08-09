@@ -1,20 +1,28 @@
-# Compiled binaries
+# Compiled Binaries
 *.o
 *.out
 *.exe
 *.a
 *.so
 
-# Executables (common names)
+# Common Executable Names
 madlibs
 shopping
+sphere
 circle
 compound
 
-# IDE and Editor files
+# IDE and Editor Files
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+
+# OS Files
 .DS_Store
+Thumbs.db
+
+# Build Directories
+build/
+dist/
