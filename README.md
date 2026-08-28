@@ -126,3 +126,4 @@ gcc WEIGHTCONVERTER.c -o weightconverter -lm
 - Mathematical calculations with `math.h`
 - Variable types and casting
 - Control flow and input validation
+- Used `if`, `else` functions.
