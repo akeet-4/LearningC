@@ -74,6 +74,31 @@ gcc a_GRADECALCULATOR.c -o gradecalc
 ./gradecalc
 ```
 
+### 6. **Weight Converter** (`a_WEIGHTCONVERTER.c`)
+A small utility program that converts weights between common units (grams, kilograms, pounds, ounces).
+
+**Features:**
+- Convert between g, kg, lb, oz.
+- Handles decimal inputs and prints results with sensible rounding.
+- Simple command-line interface.
+
+**How to run:**
+```bash
+gcc a_WEIGHTCONVERTER.c -o weightconverter -lm
+./weightconverter <value> <from_unit> <to_unit>
+```
+
+**Example (CLI):**
+```bash
+# Convert 150 pounds to kilograms
+./weightconverter 150 lb kg
+# Output: 68.04 kg
+
+# Convert 500 grams to ounces
+./weightconverter 500 g oz
+# Output: 17.64 oz
+```
+
 ## Compilation
 
 Compile all programs:
@@ -83,6 +108,7 @@ gcc a_SHOPPINGCART.c -o shopping
 gcc a_zCIRCLECALCULATOR.c -o circle -lm
 gcc a_zCOMPOUNDINTEREST.c -o compound -lm
 gcc a_GRADECALCULATOR.c -o gradecalc 
+gcc a_WEIGHTCONVERTER.c -o weightconverter -lm
 ```
 
 **Note:** Programs using `math.h` require the `-lm` flag to link the math library.
