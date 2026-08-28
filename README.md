@@ -4,7 +4,7 @@ A collection of beginner-level C programs for learning programming fundamentals.
 
 ## Programs
 
-### 1. **Mad Libs Game** (`a_MADLIBSGAME.c`)
+### 1. **Mad Libs Game** (`MADLIBSGAME.c`)
 An interactive word game where the user provides adjectives, nouns, and verbs to create a funny story.
 
 **Features:**
@@ -18,7 +18,7 @@ gcc a_MADLIBSGAME.c -o madlibs
 ./madlibs
 ```
 
-### 2. **Shopping Cart** (`a_SHOPPINGCART.c`)
+### 2. **Shopping Cart** (`SHOPPINGCART.c`)
 A simple shopping cart program that calculates the total cost of items.
 
 **Features:**
@@ -32,7 +32,7 @@ gcc a_SHOPPINGCART.c -o shopping
 ./shopping
 ```
 
-### 3. **Circle Calculator** (`a_zCIRCLECALCULATOR.c`)
+### 3. **Circle Calculator** (`CIRCLECALCULATOR.c`)
 Calculates geometric properties of a sphere given its radius.
 
 **Features:**
@@ -46,7 +46,7 @@ gcc a_zCIRCLECALCULATOR.c -o circle -lm
 ./circle
 ```
 
-### 4. **Compound Interest Calculator** (`a_zCOMPOUNDINTEREST.c`)
+### 4. **Compound Interest Calculator** (`COMPOUNDINTEREST.c`)
 Calculates compound interest with customizable parameters.
 
 **Features:**
@@ -60,7 +60,7 @@ gcc a_zCOMPOUNDINTEREST.c -o compound -lm
 ./compound
 ```
 
-### 5. **Grade Calculator** (`a_GRADECALCULATOR.c`)
+### 5. **Grade Calculator** (`GRADECALCULATOR.c`)
 Calculates your CGPA using your grades.
 
 **Features:**
@@ -74,7 +74,7 @@ gcc a_GRADECALCULATOR.c -o gradecalc
 ./gradecalc
 ```
 
-### 6. **Weight Converter** (`a_WEIGHTCONVERTER.c`)
+### 6. **Weight Converter** (`WEIGHTCONVERTER.c`)
 A small utility program that converts weights between common units (grams, kilograms, pounds, ounces).
 
 **Features:**
