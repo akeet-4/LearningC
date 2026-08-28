@@ -14,7 +14,7 @@ An interactive word game where the user provides adjectives, nouns, and verbs to
 
 **How to run:**
 ```bash
-gcc a_MADLIBSGAME.c -o madlibs
+gcc MADLIBSGAME.c -o madlibs
 ./madlibs
 ```
 
@@ -28,7 +28,7 @@ A simple shopping cart program that calculates the total cost of items.
 
 **How to run:**
 ```bash
-gcc a_SHOPPINGCART.c -o shopping
+gcc SHOPPINGCART.c -o shopping
 ./shopping
 ```
 
@@ -42,7 +42,7 @@ Calculates geometric properties of a sphere given its radius.
 
 **How to run:**
 ```bash
-gcc a_zCIRCLECALCULATOR.c -o circle -lm
+gcc CIRCLECALCULATOR.c -o circle -lm
 ./circle
 ```
 
@@ -56,7 +56,7 @@ Calculates compound interest with customizable parameters.
 
 **How to run:**
 ```bash
-gcc a_zCOMPOUNDINTEREST.c -o compound -lm
+gcc COMPOUNDINTEREST.c -o compound -lm
 ./compound
 ```
 
@@ -70,7 +70,7 @@ Calculates your CGPA using your grades.
 
 **How To Run:**
 ```bash
-gcc a_GRADECALCULATOR.c -o gradecalc 
+gcc GRADECALCULATOR.c -o gradecalc 
 ./gradecalc
 ```
 
@@ -84,7 +84,7 @@ A small utility program that converts weights between common units (grams, kilog
 
 **How to run:**
 ```bash
-gcc a_WEIGHTCONVERTER.c -o weightconverter -lm
+gcc WEIGHTCONVERTER.c -o weightconverter -lm
 ./weightconverter <value> <from_unit> <to_unit>
 ```
 
@@ -103,12 +103,12 @@ gcc a_WEIGHTCONVERTER.c -o weightconverter -lm
 
 Compile all programs:
 ```bash
-gcc a_MADLIBSGAME.c -o madlibs
-gcc a_SHOPPINGCART.c -o shopping
-gcc a_zCIRCLECALCULATOR.c -o circle -lm
-gcc a_zCOMPOUNDINTEREST.c -o compound -lm
-gcc a_GRADECALCULATOR.c -o gradecalc 
-gcc a_WEIGHTCONVERTER.c -o weightconverter -lm
+gcc MADLIBSGAME.c -o madlibs
+gcc SHOPPINGCART.c -o shopping
+gcc CIRCLECALCULATOR.c -o circle -lm
+gcc COMPOUNDINTEREST.c -o compound -lm
+gcc GRADECALCULATOR.c -o gradecalc 
+gcc WEIGHTCONVERTER.c -o weightconverter -lm
 ```
 
 **Note:** Programs using `math.h` require the `-lm` flag to link the math library.
