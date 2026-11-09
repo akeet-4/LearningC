@@ -1,6 +1,6 @@
 # LearningC
 
-A collection of beginner-level C programs for learning programming fundamentals.
+A collection of beginner-level C programs for learning programming fundamentals
 
 ## Programs
 
